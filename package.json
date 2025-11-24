@@ -1,0 +1,28 @@
+{
+  "name": "spira-xunit-reader-nodejs",
+  "version": "1.0.0",
+  "description": "Exports xUnit format test executions as test runs in Spira (SpiraTest/Team/Plan)",
+  "main": "spira-xunit-reader.js",
+  "bin": {
+    "spira-xunit-reader": "./spira-xunit-reader.js"
+  },
+  "scripts": {
+    "start": "node spira-xunit-reader.js"
+  },
+  "keywords": [
+    "spira",
+    "xunit",
+    "junit",
+    "testing",
+    "test-automation"
+  ],
+  "author": "Inflectra Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "xml2js": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

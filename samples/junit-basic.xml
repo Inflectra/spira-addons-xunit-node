@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is a basic JUnit-style XML example to highlight the basic structure.
+-->
+<testsuites time="15.682687">
+    <testsuite name="LIS.Registration" time="6.605871">
+        <testcase name="registration1" classname="LIS.Registration" time="2.113871" />
+        <testcase name="registration2" classname="LIS.Registration" time="1.051" />
+        <testcase name="registration3" classname="LIS.Registration" time="3.441" />
+    </testsuite>
+    <testsuite name="LIS.Authentication" time="9.076816">
+        <testsuite name="LIS.Authentication.Login" time="4.356">
+            <testcase name="login1" classname="LIS.Authentication.Login" time="2.244" />
+            <testcase name="login2" classname="LIS.Authentication.Login" time="0.781" />
+            <testcase name="login3" classname="LIS.Authentication.Login" time="1.331" />
+        </testsuite>
+        <testcase name="auth1" classname="LIS.Authentication" time="2.508" />
+        <testcase name="auth2" classname="LIS.Authentication" time="1.230816" />
+        <testcase name="auth3" classname="LIS.Authentication" time="0.982">
+            <failure message="Assertion error message" type="AssertionError">
+                Resource: Login Page
+                File: /Login.aspx
+                URL: https://www.libraryinformationsystem.org
+                Login failed with error message: XYZ
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
