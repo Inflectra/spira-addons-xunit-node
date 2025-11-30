@@ -9,6 +9,10 @@
   "scripts": {
     "start": "node spira-xunit-reader.js"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Inflectra/spira-addons-xunit-node.git"
+  },
   "keywords": [
     "spira",
     "xunit",
